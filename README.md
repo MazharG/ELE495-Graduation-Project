@@ -25,4 +25,5 @@ The objective of the project is to control the DC motor of the created conveyor 
       <li>Publishing the JSON file to the internet</li>
     </ul>
 </ol>
-<h2>Process Diagram</h2>![Process-Diagram](https://github.com/MazharG/ELE495-Graduation-Project/assets/105787753/b206004e-158d-4657-b3f9-398b90f1d2e8)
+<h2>Process Diagram</h2>
+![Process-Diagram](Process-Diagram.png)
