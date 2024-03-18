@@ -26,4 +26,5 @@ The objective of the project is to control the DC motor of the created conveyor 
     </ul>
 </ol>
 <h2>Process Diagram</h2>
-https://github.com/MazharG/ELE495-Graduation-Project/blob/main/Process-Diagram.png
+![Process Diagram](/Process-Diagram.png)
+
