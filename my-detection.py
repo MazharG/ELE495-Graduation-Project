@@ -46,19 +46,11 @@ while True:
     data = {}
     
     try:
-       # Pin1'i HIGH (yüksek) yap
+
        GPIO.output(pin1, GPIO.HIGH)
-       #print("Pin 1: HIGH")
-    
-       # Pin2'yi LOW (düşük) yap
        GPIO.output(pin2, GPIO.LOW)
-       #print("Pin 2: LOW")
 
-       
-
-       
     except KeyboardInterrupt:
-       # Kullanıcı Ctrl+C tuşlarına bastığında temizle
        GPIO.cleanup()
     while GPIO.input(pin0):
        GPIO.output(pin1, GPIO.LOW)
