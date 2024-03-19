@@ -1,11 +1,10 @@
 import Jetson.GPIO as GPIO
-import time
 import jetson_inference
 import jetson_utils
-import time
-import sys
 import argparse
+import sys
 import json
+import time
 
 datas_path = "datas.json"
 # Initialize variables for fruit counts
